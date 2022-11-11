@@ -1,0 +1,2 @@
+class Ql < ApplicationRecord
+end

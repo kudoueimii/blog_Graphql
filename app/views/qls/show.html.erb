@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @ql.title %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @ql.content %>
+</p>
+
+<%= link_to 'Edit', edit_ql_path(@ql) %> |
+<%= link_to 'Back', qls_path %>
